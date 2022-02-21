@@ -3,7 +3,6 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 26
-    buildToolsVersion '26.0.2'
     defaultConfig {
         applicationId "io.virtualapp"
         minSdkVersion 15
@@ -36,6 +35,8 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
+    ndkVersion "21.1.6352462"
 
 }
 
